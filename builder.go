@@ -1,5 +1,6 @@
 package main
 
+import "fmt"
 
 func Builder(w *Where) string {
 	if w == nil {
@@ -21,4 +22,3 @@ func Builder(w *Where) string {
 	}
 	return SQLString
 }
-
